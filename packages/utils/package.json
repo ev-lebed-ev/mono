@@ -1,0 +1,13 @@
+{
+  "name": "@mono/utils",
+  "private": true,
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "build": "rm -rf dist && tsc"
+  },
+  "dependencies": {
+    "typescript": "4.7.3"
+  }
+}
